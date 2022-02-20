@@ -8,7 +8,7 @@ exports.limitend = (pushname) => {
 	return`Maaf ${pushname} limit hari ini telah habis\nlimit di reset setiap jam 24:00`
 }
 exports.noregis = (pushname) =>{
-	return` 🙅‍♀️ Halo ${pushname} lu belum daftar. Ketik .daftar dulu`
+	return` 🙅‍♀️ Halo ${pushname} kamu belum daftar. Ketik .daftar dulu`
 	}
 exports.regis = () =>{
 	return` Lu udah daftar 😒`
@@ -16,11 +16,11 @@ exports.regis = () =>{
 exports.daftar = (sender, pushname, time, serialUser, totalUser) =>{
 	return` *PENDAFTARAN BERHASIL*
 
-• Nama : ${pushname}
-• Nomor : ${sender.split("@")[0]}
-• Waktu : ${time}
-• Serial : ${serialUser}
-• Total User : ${totalUser.length}
+• 👤Nama : ${pushname}
+• ✨Nomor : ${sender.split("@")[0]}
+• ⏲️Waktu : ${time}
+• 🌸Serial : ${serialUser}
+• 💌Total User : ${totalUser.length}
 
 Thanks yak udah daftar, sekarang ketik .menu untuk melihat 
 fitur bot.
@@ -49,17 +49,17 @@ exports.ok = () =>{
 	return` ✅ Oke done ~`
 	}
 exports.welcome = () =>{
-	return`Jangan Lupa Intro Ya~
+	return`Jangan Lupa Intro ~
 ⌯ָ   ֙Nama :
 ⌯ָ   ֙Umur :
 ⌯ָ   ֙Kelamin :
 ⌯ָ   ֙Askot :
-╰─ ᝬ _Patuhi Rules Group Ya_  >_<`
+╰─ ᝬ _Patuhi Rules Group _  >_<`
       }
 exports.leave = () =>{
 	return`
 │
-╰─ ᝬ _Balik Lagi Wajib Donasi Ya_ >_<`
+╰─ ᝬ _Alhamdulillah beban group keluar_ >_<`
 }
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
